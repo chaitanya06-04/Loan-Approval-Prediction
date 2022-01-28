@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=White>
+     <center>
+        <h1> LOAN ELIGIBILITY PREDICTION </h1><br>
+     <form method="POST", action="{{url_for('home')}}">
+           <b> Gender :  <input type="text", name='a', placeholder="Male/Female"> <br><br>
+            Married :  <input type="text", name='b', placeholder="Yes/No"> <br><br>
+            Dependents :  <input type="text", name='c', placeholder="0/1/2/3"> <br><br>
+            Education : <input type="text", name='d', placeholder="1/0"> <br><br>
+            Self_Employed : <input type="text", name='e', placeholder="1/0"> <br><br>
+            ApplicantIncome	 : <input type="text", name='f', placeholder="0000.0"> <br><br>
+            CoapplicantIncome : <input type="text", name='g', placeholder="0000.0"> <br><br>
+            LoanAmount : <input type="text", name='h', placeholder="000.0000"> <br><br>
+            Loan_Amount_Term : <input type="text", name='i', placeholder="000"> <br><br>
+            Credit_History : <input type="text", name='j', placeholder="1.0/0.0"> <br><br>
+            Property_Area : <input type="text", name='k', placeholder="Urban/Rural/Semiurban"> <br><br><br>
+            <input type="submit"  value='predict' > 
+        </form>
+    </center>
+    </body>
+</html>
